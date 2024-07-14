@@ -1,0 +1,30 @@
+.header-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 40vw;
+}
+
+#name, #email{
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border-color: rgba(240, 255, 255, 0.408);
+    border-width: 1px;
+    padding-left: 8px;
+}
+button{
+    margin: 5px 30px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 500;
+    border: none;
+    height: 2rem;
+    border-radius: 3px;
+}
+
+.data{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 25vw;
+}
